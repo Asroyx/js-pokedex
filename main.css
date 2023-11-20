@@ -62,3 +62,12 @@ button {
   margin: 10px;
   width: 85%;
 }
+
+.poke-box h4 {
+  font-style: 1.4rem;
+  margin: 5px auto;
+}
+
+.poke-box p {
+  margin: 5px auto;
+}
