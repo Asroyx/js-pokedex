@@ -47,11 +47,13 @@ button {
 
 .poke-container {
   display: flex;
+  justify-content: center;
   width: 100%;
   flex-wrap: wrap;
   padding: 3rem;
 }
 .poke-box {
+  margin: 10px;
   width: 300px;
   background: #fff;
   border-radius: 15px;
