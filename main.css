@@ -51,14 +51,14 @@ button {
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
-  padding: 3rem;
+  padding: 0.5rem;
 }
 .poke-box {
   margin: 10px;
-  width: 300px;
+  width: 250px;
   background: #fff;
   border-radius: 15px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .poke-box img {
