@@ -20,7 +20,7 @@ const colors = {
   ice: "#e0f5ff",
 };
 
-const pokeCount = 10;
+const pokeCount = 151;
 
 const initPokemon = async () => {
   for (let i = 1; i <= pokeCount; i++) {
