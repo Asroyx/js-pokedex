@@ -40,6 +40,7 @@ const createPokemonBox = (pokemon) => {
   const id = pokemon.id.toString().padStart(3, "0");
   const weight = pokemon.weight;
   const type = pokemon.types[0].type.name;
+  const color = colors[type];
 };
 
 initPokemon();
