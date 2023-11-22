@@ -14,6 +14,14 @@ const getPokemon = async (id) => {
   let url = `https://pokeapi.co/api/v2/pokemon/${id}`;
   let res = await fetch(url);
   let data = await res.json();
+  createPokemonBox(data);
+};
+
+const createPokemonBox = (pokemon) => {
+  const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
+  const id = pokemon.id.toString().padStart(3, "0");
+  const weight = pokemon.weight;
+  const type = pokemon.types[0].type.name;
 };
 
 initPokemon();
