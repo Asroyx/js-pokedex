@@ -4,7 +4,7 @@ const pokeContainer = document.querySelector(".poke-container");
 
 const colors = {
   fire: "#FDDFDF",
-  grass: "#DEFDEO",
+  grass: "#DEFDE0",
   electric: "#FCF7DE",
   water: "#DEF3FD",
   ground: "#f4e7da",
